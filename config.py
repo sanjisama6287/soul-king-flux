@@ -10,26 +10,28 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7314377283:AAEV3otJMv7kyjcszexSW3F0Dg5Qpzp3-b0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7345853150:AAGDt5mdN-Sct0O5oHQgbG6kyZ5zc_rcwOI")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22213072"))
+
+#Your API ID from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", "24567281"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "8ec41c246b5074ab926933fb286fb43f")
+API_HASH = os.environ.get("API_HASH", "17a51c14e6c25caad1a8f63a97c51f96")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002301848493"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002163025446"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6727550037"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7400335416"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Boa_Hancock_File_Bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "aniverse_manhwa_world")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", " -1002038915478"))
@@ -63,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ᴅᴏɴ'ᴛ ᴍᴇssᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @Anime_Flux"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6727550037)
+ADMINS.append(7400335416)
 
 LOG_FILE_NAME = "sanjisama.txt"
 
